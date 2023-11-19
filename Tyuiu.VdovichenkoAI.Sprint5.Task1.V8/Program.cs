@@ -24,13 +24,22 @@ namespace Tyuiu.VdovichenkoAI.Sprint5.Task1.V8
             Console.WriteLine("* Выполнила: Вдовиченко А.И. | ИИПб-23-1                                  *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Дано выражение вычислить его значение при x = 3, результат сохранить    *");
-            Console.WriteLine("* в текстовый файл OutPutFileTask0.txt и вывести на консоль. Округлить до *");
-            Console.WriteLine("* трёх знаков после запятой.                                              *");
+            Console.WriteLine("* Дана функция. Вычислить её значения на диапазоне [-5;5] с шагом 1.      *");
+            Console.WriteLine("* Результат сохранить в текстовый файл 'OutPutFileTask0.txt' и вывести    *");
+            Console.WriteLine("* на консоль в таблицу. Значения округлить до двух знаков после запятой.  *");
             Console.WriteLine("*                                                                          ");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
+            Console.WriteLine("startValue = " + startValue);
+            Console.WriteLine("stopValue = " + stopValue);
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+            string res = ds.SaveToFileTextData(startValue, stopValue);
+            Console.WriteLine("Файл: " + res);
+            Console.WriteLine("Создан!");
+            Console.ReadKey();
         }
     }
 }

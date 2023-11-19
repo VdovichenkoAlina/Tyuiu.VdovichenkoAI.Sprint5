@@ -11,7 +11,7 @@ namespace Tyuiu.VdovichenkoAI.Sprint5.Task1.V8.Test
         [TestMethod]
         public void TestMethod1()
         {
-            string path = @"C:\Users\Администратор\source\repos\Tyuiu.VdovichenkoAI.Sprint5\Tyuiu.VdovichenkoAI.Sprint5.Task1.V8\bin\Debug\OutPutFileTask0.txt";
+            string path = @"C:\Users\Администратор\source\repos\Tyuiu.VdovichenkoAI.Sprint5\Tyuiu.VdovichenkoAI.Sprint5.Task1.V8\bin\Debug\OutPutFileTask1.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;

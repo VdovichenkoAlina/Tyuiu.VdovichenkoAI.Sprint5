@@ -19,12 +19,11 @@ namespace Tyuiu.VdovichenkoAI.Sprint5.Task1.V8.Lib
             {
                 File.Delete(path);
             }
-            double y;
-            string strY;
+            
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = Math.Round(4 - 2 * x + (2 + Math.Cos(x)) / (2 * x - 2), 2);
-                strY = Convert.ToString(y);
+                double y = Math.Round(4 - 2 * x + (2 + Math.Cos(x)) / (2 * x - 2), 2);
+                string strY = Convert.ToString(y);
                 if (x != stopValue)
                 {
                     File.AppendAllText(path, strY + Environment.NewLine);

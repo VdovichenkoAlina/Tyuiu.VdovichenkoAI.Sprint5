@@ -18,7 +18,7 @@ namespace Tyuiu.VdovichenkoAI.Sprint5.Task1.V8
             // Длинна строки 75 символов
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Тема: Класс File. Запись данных в текстовый файл                        *");
+            Console.WriteLine("* Тема: Класс File. Запись набора данных в текстовый файл                 *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #8                                                              *");
             Console.WriteLine("* Выполнила: Вдовиченко А.И. | ИИПб-23-1                                  *");
